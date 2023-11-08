@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -43,11 +43,11 @@
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "main": "src/lib/index.js",
+  "module": "src/lib/index.js",
+  "files": [ "lib", "README.md" ],
   "repository": {
       "type": "git",
-      "url": "git+https://github.com/thilakace/sample-npm-react.git"
+      "url": "https://github.com/thilakace/sample-npm-react"
   }
 }
