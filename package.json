@@ -1,5 +1,5 @@
 {
-  "name": "thilak",
+  "name": "thilak90",
   "description": "Two test React components",
   "author": "thilak",
   "version": "0.1.0",
@@ -42,5 +42,12 @@
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [ "dist", "README.md" ],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thilakace/sample-npm-react.git"
   }
 }
